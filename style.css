@@ -1,0 +1,60 @@
+h1, h2, p{
+    color: white;
+    margin-bottom: 20px;
+
+}
+h1,h2 {
+    text-align: center;
+  margin: 100px;
+    font: bold;
+
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    box-shadow: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-style: oblique;
+    font-size: 25px;
+    margin: 200px;
+}
+#home {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+    background-color: green}
+}
+.things{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+#picOne, #picTwo, #picThree, #picFour{
+    height: 200px;
+    width: 230px;
+
+}
